@@ -1,0 +1,84 @@
+body {
+    background: #9bb9c3;
+    font-family: Arial, sans-serif;
+}
+
+/* Ventana principal */
+.ventana {
+    width: 500px;
+    margin: 80px auto;
+    background: #e9eef1;
+    border: 1px solid #666;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+}
+
+/* Barra superior */
+.barra {
+    background: #2c2c2c;
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 13px;
+}
+
+/* Título azul */
+.titulo {
+    background: linear-gradient(#3d7fb3, #1f5d8f);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Formulario */
+.formulario {
+    background: #f7f7f7;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+.fila {
+    margin-bottom: 12px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    font-size: 13px;
+}
+
+select,
+input {
+    width: 280px;
+    padding: 4px;
+    border: 1px solid #999;
+    font-size: 13px;
+}
+
+/* Botones */
+.botones {
+    text-align: center;
+    padding: 10px 0 15px;
+}
+
+button {
+    width: 90px;
+    padding: 6px;
+    margin: 0 10px;
+    border: 1px solid #0f3f66;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ok {
+    background: linear-gradient(#3f87c5, #1f5d8f);
+}
+
+.salir {
+    background: linear-gradient(#3f87c5, #1f5d8f);
+}
+
+button:hover {
+    opacity: 0.9;
+}

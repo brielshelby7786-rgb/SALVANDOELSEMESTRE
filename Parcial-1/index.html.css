@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header-superior {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+.header-superior div { font-weight: bold; }
+.header-superior small { font-size: 12px; opacity: 0.8; }
+
+.header-principal {
+    width: 100%;
+    background: linear-gradient(to bottom, #4c99e6, #2a6dbd);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.header-principal h1 { margin: 0; font-size: 20px; font-weight: normal; }
+
+.caja-principal {
+    width: 90%;
+    max-width: 900px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.caja-tabla {
+    border: 1px solid #ccc;
+    background-color: white;
+    margin-bottom: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+table thead {
+    background: linear-gradient(to bottom, #5d98cf, #3a6fa1);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+table th, table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+    white-space: nowrap;
+}
+.seleccionado {
+    background-color: #add8e6 !important;
+    color: #333;
+    font-weight: bold;
+}
+
+.pie-botones {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+    background-color: #e0e0e0;
+    margin: 0 -20px -20px -20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.pie-botones button {
+    padding: 8px 20px;
+    border: 1px solid #777;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #eee, #ccc);
+    color: #333;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    min-width: 80px;
+}
+.pie-botones button:hover {
+    background: linear-gradient(to bottom, #fff, #ddd);
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administración</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="header-superior">
+        <div>SISTEMA DE ACTIVOS FIJOS</div>
+        <small>Unidad Administrativa</small>
+    </div>
+    <div class="header-principal">
+        <h1>ADMINISTRACION UNIDAD ADMINISTRATIVA</h1>
+    </div>
+
+    <div class="caja-principal">
+        <div class="caja-tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>UNIDAD</th>
+                        <th>DESCRIPCION</th>
+                        <th>CIUDAD</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="seleccionado">
+                        <td>025</td>
+                        <td>GACETA OFICIAL DE BOLIVIA</td>
+                        <td>LA PAZ</td>
+                    </tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="pie-botones">
+            <button>Nuevo</button>
+            <button>Editar</button>
+            <button>Eliminar</button>
+            <button>Seleccionar</button>
+            <button>Salir</button>
+        </div>
+    </div>
+</body>
+</html>
